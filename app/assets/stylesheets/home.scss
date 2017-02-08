@@ -1,0 +1,111 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html {
+  background: image-url("background2.jpg") no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+header {  
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  margin: 0 0 2em 0;
+  padding: 3px 0 3px 0;  
+  color: white;
+}
+
+.card-panel > header > h2 {
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  font-size: 2.5em;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  margin: 0;
+  padding-left: 0.05em;
+  position: relative;
+  text-transform: uppercase;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  color: white;
+}
+
+.light {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.dtv-card {
+  background: rgba(0, 0, 0, 0.81);
+  /*background: rgba(52, 27, 43, 0.5);*/
+}
+
+.brand-logo {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.nav-dtv {
+  text-transform: uppercase;
+  /*font-size: 2.5em;*/
+  font-weight: 900; 
+}
